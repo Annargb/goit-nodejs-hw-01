@@ -37,30 +37,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// const actionIndex = process.argv.indexOf("--action");
-
-// if (actionIndex !== -1) {
-//   const action = process.argv[actionIndex + 1];
-//   invokeAction({ action });
-// }
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "AeHIrLTr6JkxGE6SN-0Rw" });
-// invokeAction({
-//   action: "add",
-//   name: "Ann",
-//   email: "test@nail.com",
-//   phone: "577587841",
-// });
-
-// invokeAction({
-//   action: "update",
-//   id: "VBMxOinGq7tXNQ_LHykFI",
-//   name: "Developer Ann",
-//   email: "test@nail.com",
-//   phone: "577587841",
-// });
-
-// invokeAction({ action: "remove", id: "VBMxOinGq7tXNQ_LHykFI" });
-
 invokeAction(argv);
